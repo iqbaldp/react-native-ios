@@ -54,6 +54,8 @@ target 'newapp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
   target 'newappTests' do
     inherit! :complete
     # Pods for testing
